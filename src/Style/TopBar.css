@@ -1,0 +1,40 @@
+.topbar-outer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topbar-inner {
+  justify-content: space-between;
+  padding: 3px 0 3px 0;
+  font-family: inherit;
+  width: 80%;
+  display: flex;
+  color: white;
+}
+.topbar-left {
+  display: flex;
+  gap: 10px;
+}
+.topbar-phone1 a {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: -1px;
+}
+.topbar-phone1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.topbar-right {
+  display: flex;
+  align-items: center;
+}
+.right-icons {
+  display: flex;
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  .topbar-outer {
+    display: none;
+  }
+}

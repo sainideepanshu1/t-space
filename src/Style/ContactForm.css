@@ -1,0 +1,85 @@
+.contact-form {
+  padding: 18px;
+  background-color: white;
+  flex-direction: column;
+  gap: 30px;
+  border: 8px solid black;
+  display: flex;
+  width: 60%;
+  position: relative;
+}
+.contact-form-row {
+  width: 100%;
+  gap: 10px;
+  display: flex;
+}
+
+.contact-form-row input[type="text"] {
+  width: 100%;
+  padding: 10px 0 9px;
+  border-bottom: 2px solid black;
+  outline: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+.contact-form-row input[type="text"]:focus {
+  border-bottom: 2px solid red;
+}
+.contact-form-row2 {
+  width: 50%;
+}
+.contact-form-services {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.contact-form-row textarea {
+  padding: 29px 9px 9px 9px;
+  outline: none;
+  width: 100%;
+  min-height: 140px;
+  border: 1px solid black;
+}
+.contact-form-row textarea:focus {
+  border: 2px solid red;
+}
+.contact-form-button {
+  display: flex;
+  justify-content: flex-start;
+}
+.contact-form-button button {
+  background-color: #ef0000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+.search-input {
+  width: 100%;
+  text-align: center;
+  background-color: transparent;
+  outline: none;
+  padding: 18px 0;
+  font-size: 22px;
+  border-bottom: 1px solid #444;
+  color: white;
+}
+.search-input:focus {
+  border-bottom: 1px solid white;
+}
+.searchbutton:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.searchbutton {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 2px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

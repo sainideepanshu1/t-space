@@ -1,0 +1,23 @@
+.slick-prev {
+  display: none !important;
+}
+.slick-next {
+  display: none !important;
+}
+
+@media (min-width: 1024px) {
+  .slider-client {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .fix-client {
+    display: none;
+  }
+  .slider-client {
+    display: block;
+  }
+  .Client{
+    padding: 20px;
+  }
+}
