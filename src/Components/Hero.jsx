@@ -2,9 +2,11 @@ import { Hero_Data } from "../Data/Hero_Data";
 import React from "react";
 import { Hero_Video } from "../Data/Hero_Data";
 import { Link } from "react-router-dom";
+import CustomParticles from "./Particles";
 function Hero() {
   return (
     <div>
+      <CustomParticles />
       <section className="main-section">
         <div className="arrow-animation">
           <div className="main-left">
