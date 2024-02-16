@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
+import { loadSlim } from "@tsparticles/slim";
 
 const CustomParticles = () => {
   const [init, setInit] = useState(false);
@@ -36,7 +36,7 @@ const CustomParticles = () => {
           },
           onHover: {
             enable: true,
-            mode: "repulse",
+            mode: "grab",
           },
         },
         modes: {
@@ -74,7 +74,7 @@ const CustomParticles = () => {
           density: {
             enable: true,
           },
-          value: 80,
+          value: 150,
         },
         opacity: {
           value: 0.5,

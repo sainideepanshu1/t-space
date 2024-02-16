@@ -294,7 +294,7 @@ height: 450px;
   max-height: 100vh;
   max-width: 100%;
 }
-.mySwiper{
+.mySwiper {
   display: none !important;
 }
 .Servises_top_right {
@@ -511,7 +511,7 @@ height: 450px;
   text-align: center;
   padding: 20px 0px;
 }
-.open{
+.open {
   z-index: 999;
 }
 .Client_bottom1 > img {
@@ -1440,8 +1440,9 @@ height: 450px;
 .Contect_appotment_1 h1 {
   color: #ff4c4c;
   text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 14px;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 700;
 }
 .Contect_appotment_1 h2 {
   color: #fe0000;
